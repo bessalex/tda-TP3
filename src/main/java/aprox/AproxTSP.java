@@ -1,3 +1,5 @@
+package aprox;
+
 import graph.Notdigraph;
 
 import java.util.ArrayList;

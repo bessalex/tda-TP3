@@ -1,9 +1,9 @@
 package tspAproxTest;
 
-import graph.AproxTSP;
 import graph.Notdigraph;
 import org.junit.Test;
 import tsp.TspScanner;
+import aprox.AproxTSP;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
@@ -47,6 +47,7 @@ public class AproxTSPTest {
         matrix[3][2] = 9;
         matrix[2][3] = 9;
         notdigraph.addEdge(2,3,9);
+
 
         AproxTSP aproxTSP = new AproxTSP();
 
